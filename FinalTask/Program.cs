@@ -21,7 +21,7 @@ namespace FinalTask
             {
                 dirInfo.Create();
             }
-            dirInfo.CreateSubdirectory(path);
+            dirInfo.CreateSubdirectory(path); ????? удали. тебе не нужна подпапка. она же есть уже
 
             BinaryFormatter formatter = new BinaryFormatter();
             Student[] students;
@@ -39,7 +39,7 @@ namespace FinalTask
                 {
                     sw.WriteLine($"{student.Name}, {student.DateOfBirth}");
                 }
-                Console.ReadLine();
+                Console.ReadLine();???? удали. если не зочешьо какждый раз ентер нажимать
             }
         }
     }
